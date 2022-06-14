@@ -2,114 +2,60 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
- 
 # Built for x86_64-pc-linux-gnu
- 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
- 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
- 
 # This is free software: you are free to change and redistribute it.
- 
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
- 
-# Make data base, printed on Mon May  9 06:37:25 2022
- 
+# Make data base, printed on Tue Jun 14 04:23:39 2022
 
 # Variables
- 
 
- 
 # 'override' directive
- 
 GNUMAKEFLAGS := 
- 
 # automatic
- 
 <D = $(patsubst %/,%,$(dir $<))
- 
 # automatic
- 
 ?F = $(notdir $?)
- 
 # environment
- 
 PAPERSIZE = a4
- 
 # environment
- 
 DESKTOP_SESSION = ubuntu
- 
 # default
- 
 .SHELLFLAGS := -c
- 
 # environment
- 
 XDG_SESSION_CLASS = user
- 
 # environment
- 
 XDG_SESSION_TYPE = x11
- 
 # environment
- 
 VSCODE_LOG_NATIVE = false
- 
 # automatic
- 
 ?D = $(patsubst %/,%,$(dir $?))
- 
 # environment
- 
 IM_CONFIG_PHASE = 1
- 
 # automatic
- 
 @D = $(patsubst %/,%,$(dir $@))
- 
 # environment
- 
 XAUTHORITY = /run/user/1000/gdm/Xauthority
- 
 # environment
- 
 GDMSESSION = ubuntu
- 
 # environment
- 
 XMODIFIERS = @im=ibus
- 
 # makefile
- 
 CURDIR := /home/sejin/Desktop/PK2 - Praktikum
- 
 # makefile
- 
 SHELL = /bin/sh
- 
 # environment
- 
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
- 
 # environment
- 
 _ = /usr/share/code/code
- 
 # environment
- 
-JOURNAL_STREAM = 8:63494
- 
+JOURNAL_STREAM = 8:95617
 # environment
- 
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
- 
 # makefile
- 
 MAKEFILE_LIST := 
- 
 # automatic
 @F = $(notdir $@)
 # environment
@@ -125,7 +71,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 1713
+MANAGERPID = 3147
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -141,7 +87,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/1936,unix/ubuntu:/tmp/.ICE-unix/1936
+SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/3362,unix/ubuntu:/tmp/.ICE-unix/3362
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -151,7 +97,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = dec59e5f7bcb4ef482517be634a7faf0
+INVOCATION_ID = 8a96ff315ce14aa2bbb512b5163b407c
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -161,7 +107,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2843
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4464
 # automatic
 %F = $(notdir $%)
 # environment
@@ -173,7 +119,7 @@ PWD = /home/sejin/Desktop/PK2 - Praktikum
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1891
+SSH_AGENT_PID = 3328
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -189,7 +135,7 @@ VSCODE_CODE_CACHE_PATH = /home/sejin/.config/Code/CachedData/57fd6d0195bb9b9d1b4
 # environment
 LOGNAME = sejin
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 +F = $(notdir $+)
 # environment
@@ -211,7 +157,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-e4e8e3d5-f14a-4dd3-b4d0-8a2df7e6e4f4.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-9b4dd225-22fd-4cbe-9639-5672b1680b63.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -281,7 +227,7 @@ LC_ADDRESS = de_DE.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 2843
+VSCODE_PID = 4464
 # variable set hash-table stats:
 # Load=108/1024=11%, Rehash=0, Collisions=18/130=14%
 
@@ -291,9 +237,9 @@ VSCODE_PID = 2843
 
 # Directories
 
-# . (device 2053, inode 655657): 6 files, no impossibilities.
+# . (device 2053, inode 655657): 7 files, no impossibilities.
 
-# 6 files, no impossibilities in 1 directories.
+# 7 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -336,6 +282,7 @@ GNUmakefile:
 #  Failed to be updated.
 
 # files hash-table stats:
+ 
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -343,12 +290,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 14 / storage = 109 B / avg = 7 B
-# current buf: size = 8162 B / used = 109 B / count = 14 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 112 B / avg = 7 B
+# current buf: size = 8162 B / used = 112 B / count = 15 / avg = 7 B
 
-# strcache performance: lookups = 17 / hit rate = 17%
+# strcache performance: lookups = 18 / hit rate = 16%
 # hash-table stats:
-# Load=14/8192=0%, Rehash=0, Collisions=1/17=6%
-# Finished Make data base on Mon May  9 06:37:25 2022
+# Load=15/8192=0%, Rehash=0, Collisions=1/18=6%
+# Finished Make data base on Tue Jun 14 04:23:39 2022
 
  
