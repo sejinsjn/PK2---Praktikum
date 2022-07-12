@@ -1,7 +1,6 @@
 #ifndef LISTITER
 #define LISTITER
 
-#include "Iterator.h"
 #include "linkedlist.h"
 
 namespace fhdo_pk2 {

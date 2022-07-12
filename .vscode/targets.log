@@ -15,17 +15,13 @@ make: *** No rule to make target 'all'.  Stop.
  
 
  
-# Make data base, printed on Tue Jul 12 02:19:38 2022
+# Make data base, printed on Tue Jul 12 05:03:12 2022
  
 
 # Variables
- 
 
- 
 # 'override' directive
- 
 GNUMAKEFLAGS := 
- 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
@@ -254,6 +250,7 @@ VSCODE_PID = 2574
 # 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
+ 
 
 # No implicit rules.
 
@@ -307,7 +304,6 @@ GNUmakefile:
 # strcache performance: lookups = 23 / hit rate = 13%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=1/23=4%
- 
-# Finished Make data base on Tue Jul 12 02:19:38 2022
+# Finished Make data base on Tue Jul 12 05:03:12 2022
 
  

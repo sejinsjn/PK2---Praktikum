@@ -2,7 +2,6 @@
 #include <iostream>
 #include "linkedlist.h"
 #include "ListIterator.h"
-#include "Iterator.h"
 
 using namespace fhdo_pk2;
 
