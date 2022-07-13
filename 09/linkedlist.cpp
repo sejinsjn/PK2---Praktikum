@@ -147,7 +147,7 @@ void LinkedList<T>::visit_all(void (*work)(const T* thing)){
 
 template <typename T>
 Iterator<T>* LinkedList<T>::iterator(){
-    return new ListIterator<T> {head};
+    return new ListIterator<T>(head);
 }
 
 #endif

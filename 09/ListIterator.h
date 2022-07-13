@@ -1,8 +1,8 @@
 #ifndef LISTITER
 #define LISTITER
 
-#include "Iterator.h"
 #include "node.h"
+#include "Iterator.h"
 
 namespace fhdo_pk2 {
     template<typename T> class ListIterator : public Iterator<T>{
@@ -16,6 +16,6 @@ namespace fhdo_pk2 {
 
 }  // namespace fhdo_pk2
 
-#include "linkedlist.cpp"
+#include "ListIterator.cpp"
 
 #endif

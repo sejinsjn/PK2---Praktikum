@@ -1,5 +1,7 @@
+#ifndef LISTITERCPP
+#define LISTITERCPP
+
 #include "ListIterator.h"
-#include "node.h"
 
 using namespace fhdo_pk2;
 
@@ -14,7 +16,9 @@ bool ListIterator<T>::hasNext() {
 
 template <typename T>
 const T* ListIterator<T>::next() {
-  const T* data = current->data;
+  const T* thing = current->thing;
   current = current->next;
-  return data;
+  return thing;
 }
+
+#endif

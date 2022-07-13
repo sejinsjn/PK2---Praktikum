@@ -1,8 +1,8 @@
 #ifndef LIST
 #define LIST
 
-#include "Iterator.h"
 #include "node.h"
+#include "Iterator.h"
 
 namespace fhdo_pk2{
     
