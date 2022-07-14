@@ -15,7 +15,7 @@ make: *** No rule to make target 'all'.  Stop.
  
 
  
-# Make data base, printed on Wed Jul 13 10:51:01 2022
+# Make data base, printed on Thu Jul 14 05:19:14 2022
  
 
 # Variables
@@ -37,77 +37,41 @@ GNUMAKEFLAGS :=
 # environment
  
 PAPERSIZE = a4
- 
 # environment
- 
 DESKTOP_SESSION = ubuntu
- 
 # default
- 
 .SHELLFLAGS := -c
- 
 # environment
- 
 XDG_SESSION_CLASS = user
- 
 # environment
- 
 XDG_SESSION_TYPE = x11
- 
 # environment
- 
 VSCODE_LOG_NATIVE = false
- 
 # automatic
- 
 ?D = $(patsubst %/,%,$(dir $?))
- 
 # environment
- 
 IM_CONFIG_PHASE = 1
- 
 # automatic
- 
 @D = $(patsubst %/,%,$(dir $@))
- 
 # environment
- 
 XAUTHORITY = /run/user/1000/gdm/Xauthority
- 
 # environment
- 
 GDMSESSION = ubuntu
- 
 # environment
- 
 XMODIFIERS = @im=ibus
- 
 # makefile
- 
 CURDIR := /home/sejin/Desktop/PK2 - Praktikum
- 
 # makefile
- 
 SHELL = /bin/sh
- 
 # environment
- 
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
- 
 # environment
- 
 _ = /usr/share/code/code
- 
 # environment
- 
-JOURNAL_STREAM = 8:60188
- 
+JOURNAL_STREAM = 8:62230
 # environment
- 
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
- 
 # makefile
- 
 MAKEFILE_LIST := 
 # automatic
 @F = $(notdir $@)
@@ -124,7 +88,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 1558
+MANAGERPID = 1702
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -140,7 +104,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/1776,unix/ubuntu:/tmp/.ICE-unix/1776
+SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/1919,unix/ubuntu:/tmp/.ICE-unix/1919
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -150,7 +114,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 6fd628d8aa644d9cab81337f395be804
+INVOCATION_ID = d5a6d8a5423742a48907ea4d381cb5c8
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -160,7 +124,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2284
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2372
 # automatic
 %F = $(notdir $%)
 # environment
@@ -172,7 +136,7 @@ PWD = /home/sejin/Desktop/PK2 - Praktikum
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1742
+SSH_AGENT_PID = 1886
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -191,6 +155,7 @@ LOGNAME = sejin
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # automatic
 +F = $(notdir $+)
+ 
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
@@ -210,7 +175,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b59bad28-8713-4e5c-a7c6-ade49e88f3e8.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7f704a6e-fec2-4664-b178-93d4712d85c0.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -242,6 +207,7 @@ MFLAGS = -pqrR
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # automatic
+ 
 +D = $(patsubst %/,%,$(dir $+))
 # environment
 GDK_BACKEND = x11
@@ -280,7 +246,7 @@ LC_ADDRESS = de_DE.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 2284
+VSCODE_PID = 2372
 # variable set hash-table stats:
 # Load=108/1024=11%, Rehash=0, Collisions=18/130=14%
 
@@ -290,9 +256,9 @@ VSCODE_PID = 2284
 
 # Directories
 
-# . (device 2053, inode 655657): 15 files, no impossibilities.
+# . (device 2053, inode 655657): 16 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -342,12 +308,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 143 B / avg = 6 B
-# current buf: size = 8162 B / used = 143 B / count = 23 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 146 B / avg = 6 B
+# current buf: size = 8162 B / used = 146 B / count = 24 / avg = 6 B
 
-# strcache performance: lookups = 26 / hit rate = 11%
+# strcache performance: lookups = 27 / hit rate = 11%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
-# Finished Make data base on Wed Jul 13 10:51:01 2022
+# Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
+# Finished Make data base on Thu Jul 14 05:19:14 2022
 
  
